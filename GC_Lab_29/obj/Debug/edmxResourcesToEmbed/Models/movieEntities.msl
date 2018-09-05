@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="moviesModelStoreContainer" CdmEntityContainer="moviesEntities">
+    <EntitySetMapping Name="movies">
+      <EntityTypeMapping TypeName="moviesModel.movie">
+        <MappingFragment StoreEntitySet="movie">
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="category" ColumnName="category" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
